@@ -9,8 +9,8 @@
 
 ## Install
 ```
-git clone https://github.com/D4nex/dee-pe
-cd dee-pe
+git clone https://github.com/D4nex/deepe-cli
+cd deepe-cli
 pip install -r requirements.txt
 python3 main.py -h
 ```
@@ -28,7 +28,7 @@ Generates a report in JSON format with the file in pieces (all possible IOCs).
 - Hash Sum - (md5, sha1, sha256)
 - Readable strings
 - URLs
-- Sections - (VAddr, VSize, Data Size, Perms, Entropy)
+- Sections - (Virtual Addr, Virtual Size, Data Size, Perms, Entropy)
 - Imphash
 - Executable sections opcodes
 - WINDOWS API calls
@@ -67,6 +67,8 @@ Insert features into a dataset for future training of an ML model (to avoid data
 
 ## Known Issues
 
-- **Comment the code**: I know, only 5 minutes
-- **VirusTotal Integration**: Integration with Virus Total for file scanning
+- **Comment the code**: I know, only 5 minutes.
+- **VirusTotal Integration**: Integration with Virus Total for file scanning.
+- **malAPI Integration**: Integration with malAPI to describe API calls and obtain information.
+- **More features**: Extract exports, embedded files, more sections features
 - Mmmm...little things
