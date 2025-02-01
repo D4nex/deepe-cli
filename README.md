@@ -9,8 +9,8 @@
 
 ## Install
 ```
-git clone https://github.com/D4nex/deepe-cli
-cd deepe-cli
+git clone https://github.com/D4nex/DeePE-CLI
+cd DeePE-CLI
 pip install -r requirements.txt
 python3 main.py -h
 ```
@@ -69,6 +69,5 @@ Insert features into a dataset for future training of an ML model (to avoid data
 
 - **Comment the code**: I know, only 5 minutes.
 - **VirusTotal Integration**: Integration with Virus Total for file scanning.
-- **malAPI Integration**: Integration with malAPI to describe API calls and obtain information.
 - **More features**: Extract exports, embedded files, more sections features
 - Mmmm...little things
